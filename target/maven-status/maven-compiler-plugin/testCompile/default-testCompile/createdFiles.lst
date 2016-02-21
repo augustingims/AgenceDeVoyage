@@ -1,0 +1,6 @@
+com/thedevbridge/app/web/rest/UserResourceTest.class
+com/thedevbridge/app/security/SecurityUtilsTest.class
+com/thedevbridge/app/web/rest/AuditResourceTest.class
+com/thedevbridge/app/web/rest/TestUtil.class
+com/thedevbridge/app/web/rest/AccountResourceTest.class
+com/thedevbridge/app/service/UserServiceTest.class

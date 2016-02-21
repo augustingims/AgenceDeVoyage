@@ -1,0 +1,253 @@
+{
+  "groups": [
+    {
+      "name": "jhipster",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties"
+    },
+    {
+      "name": "jhipster.async",
+      "sourceMethod": "getAsync()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Async"
+    },
+    {
+      "name": "jhipster.cache",
+      "sourceMethod": "getCache()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Cache"
+    },
+    {
+      "name": "jhipster.cache.ehcache",
+      "sourceMethod": "getEhcache()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Cache",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Cache$Ehcache"
+    },
+    {
+      "name": "jhipster.datasource",
+      "sourceMethod": "getDatasource()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Datasource"
+    },
+    {
+      "name": "jhipster.http",
+      "sourceMethod": "getHttp()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Http"
+    },
+    {
+      "name": "jhipster.http.cache",
+      "sourceMethod": "getCache()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Http",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Http$Cache"
+    },
+    {
+      "name": "jhipster.mail",
+      "sourceMethod": "getMail()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Mail"
+    },
+    {
+      "name": "jhipster.metrics",
+      "sourceMethod": "getMetrics()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Metrics"
+    },
+    {
+      "name": "jhipster.metrics.graphite",
+      "sourceMethod": "getGraphite()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Graphite"
+    },
+    {
+      "name": "jhipster.metrics.jmx",
+      "sourceMethod": "getJmx()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Jmx"
+    },
+    {
+      "name": "jhipster.metrics.spark",
+      "sourceMethod": "getSpark()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Spark"
+    },
+    {
+      "name": "jhipster.security",
+      "sourceMethod": "getSecurity()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Security"
+    },
+    {
+      "name": "jhipster.security.rememberme",
+      "sourceMethod": "getRememberme()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Security",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Security$Rememberme"
+    },
+    {
+      "name": "jhipster.swagger",
+      "sourceMethod": "getSwagger()",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties",
+      "type": "com.thedevbridge.app.config.JHipsterProperties$Swagger"
+    }
+  ],
+  "hints": [],
+  "properties": [
+    {
+      "defaultValue": 2,
+      "name": "jhipster.async.core-pool-size",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Async",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": 50,
+      "name": "jhipster.async.max-pool-size",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Async",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": 10000,
+      "name": "jhipster.async.queue-capacity",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Async",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": "16M",
+      "name": "jhipster.cache.ehcache.max-bytes-local-heap",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Cache$Ehcache",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": 3600,
+      "name": "jhipster.cache.time-to-live-seconds",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Cache",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": true,
+      "name": "jhipster.datasource.cache-prep-stmts",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Datasource",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "defaultValue": 250,
+      "name": "jhipster.datasource.prep-stmt-cache-size",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Datasource",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": 2048,
+      "name": "jhipster.datasource.prep-stmt-cache-sql-limit",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Datasource",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": true,
+      "name": "jhipster.datasource.use-server-prep-stmts",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Datasource",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "defaultValue": 31,
+      "name": "jhipster.http.cache.time-to-live-in-days",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Http$Cache",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": "agence_de_voyage@localhost",
+      "name": "jhipster.mail.from",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Mail",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": false,
+      "name": "jhipster.metrics.graphite.enabled",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Graphite",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "defaultValue": "localhost",
+      "name": "jhipster.metrics.graphite.host",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Graphite",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": 2003,
+      "name": "jhipster.metrics.graphite.port",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Graphite",
+      "type": "java.lang.Integer"
+    },
+    {
+      "defaultValue": "agence_de_voyage",
+      "name": "jhipster.metrics.graphite.prefix",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Graphite",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": true,
+      "name": "jhipster.metrics.jmx.enabled",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Jmx",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "defaultValue": false,
+      "name": "jhipster.metrics.spark.enabled",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Spark",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "defaultValue": "localhost",
+      "name": "jhipster.metrics.spark.host",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Spark",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": 9999,
+      "name": "jhipster.metrics.spark.port",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Metrics$Spark",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "jhipster.security.rememberme.key",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Security$Rememberme",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "jhipster.swagger.contact",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": "agence_de_voyage API documentation",
+      "name": "jhipster.swagger.description",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "jhipster.swagger.license",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "jhipster.swagger.license-url",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "jhipster.swagger.terms-of-service-url",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": "agence_de_voyage API",
+      "name": "jhipster.swagger.title",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    },
+    {
+      "defaultValue": "0.0.1",
+      "name": "jhipster.swagger.version",
+      "sourceType": "com.thedevbridge.app.config.JHipsterProperties$Swagger",
+      "type": "java.lang.String"
+    }
+  ]
+}
